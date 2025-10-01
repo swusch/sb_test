@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = gowon_kingdom
+government_rank = 2
+primary_culture = wonju
+religion = neokttareum
+technology_group = tech_halessi

@@ -1,0 +1,103 @@
+custom_button = {
+    name = sb_button
+	tooltip = sb_button_title
+
+	potential = {
+		OR = {
+			owner = { tag = V16 }
+			owner = { tag = Y95 }
+		}
+		FROM = {
+			has_country_flag = sb_human_governance_flag
+		}
+		ROOT = {
+			NOT = { 
+				any_neighbor_province = {
+					has_province_modifier = sb_human_city
+				}
+			}
+		}
+    }
+
+    trigger = { 
+		if = {
+			limit = {
+				owner = { tag = V16 }
+			}
+			root = {
+				is_core = V16
+			}
+			FROM = {
+				adm_power = 50
+				is_at_war = no
+			}
+		}
+		else_if = {
+			limit = { 
+				owner = { tag = Y95 }
+			}
+			FROM = {
+				adm_power = 75
+				is_at_war = no
+			}
+		}
+		
+	}
+
+	effect = { 
+		#This will apply to the country
+		if = {
+			limit = {
+				owner = { tag = V16 }
+			}
+			FROM = {
+				add_adm_power = -50
+			}
+		}
+		else_if = {
+			limit = { 
+				owner = { tag = Y95 }
+			}
+			FROM = {
+				add_adm_power = -75
+			}
+		}
+
+		#These will apply on the province
+		if = {
+			limit = { owner = { tag = V16 } }
+			custom_tooltip = sb_human_governance_city_tt
+			hidden_effect = {
+				add_core = Y95
+				remove_core = V16
+				cede_province = Y95
+				change_culture = wonju
+				add_province_modifier = {
+					name = sb_human_city
+					duration = -1
+				}
+				every_neighbor_province = {
+					limit = {
+						NOT = { has_province_modifier = sb_human_city }
+					}
+					province_event = {
+						id = sb.8
+						days = 1825
+						random = 7300
+					}
+					every_neighbor_province = {
+						limit = {
+							NOT = { has_province_modifier = sb_human_city }
+						}
+						province_event = {
+							id = sb.8
+							days = 1825
+							random = 7300
+						}
+					}
+				}
+				sb_update_control = yes
+			}
+		}
+	}	
+}

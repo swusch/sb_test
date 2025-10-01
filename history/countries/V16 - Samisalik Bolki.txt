@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = sb_hill_troll_tribe_reform
+government_rank = 1
+primary_culture = hill_troll
+religion = neokttareum
+technology_group = tech_hill_troll
+capital = 5335

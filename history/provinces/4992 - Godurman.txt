@@ -1,0 +1,15 @@
+# No previous file for Cremona
+owner = V16
+controller = V16
+add_core = V16
+culture = hill_troll
+religion = un_khudai
+is_city = yes
+
+hre = no
+
+base_tax = 1
+base_production = 2
+base_manpower = 2
+
+trade_goods = fur

@@ -1,0 +1,24 @@
+
+setup_vision_haless = yes
+government = tribal
+add_government_reform = centaur_horde
+government_rank = 1
+primary_culture = inaer_centaur
+religion = irdaeos_worship
+religious_school = irdukhuga_school
+technology_group = tech_centaur
+capital = 5099
+
+1427.04.21 = {
+	monarch = {
+		name = "Mengc"
+		dynasty = "Mapledancer"
+		birth_date = 1422.06.01
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = calm_personality
+	add_ruler_personality = careful_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+}

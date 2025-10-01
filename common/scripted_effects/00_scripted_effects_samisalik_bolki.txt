@@ -1,0 +1,3740 @@
+sb_steal_dev_5_from_subject = {
+	Y95 = {
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+}
+
+sb_steal_dev_10_from_subject = {
+	Y95 = {
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			radd_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+}
+
+sb_steal_dev_20_from_subject = {
+	Y95 = {
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+}
+
+sb_steal_dev_30_from_subject = {
+	Y95 = {
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+}
+
+sb_steal_dev_40_from_subject = {
+	Y95 = {
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1 
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+}
+
+sb_steal_dev_50_from_subject = {
+	Y95 = {
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_tax = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_production = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+		random_owned_province = {
+			add_base_manpower = -1
+			if = {
+				limit = { V16 = { ruler_is_lich = yes } }
+				add_province_modifier = {
+					name = sb_city_pillaged_with_lich
+					duration = 1825
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = sb_city_pillaged_no_lich
+					duration = 1825
+				}
+			}
+		}
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_tax = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_production = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+	random_owned_province = {
+		add_base_manpower = 1
+	}
+}
+
+sb_update_control = {
+	if = {
+		limit = {
+			any_owned_province = {
+				NOT = { culture = hill_troll }
+				NOT = { has_province_modifier = sb_governance_malus }
+				NOT = {	any_neighbor_province = { has_province_modifier = sb_human_city	} }
+				NOT = {	any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } }
+				NOT = { is_island = yes }
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { culture = hill_troll }
+				NOT = { has_province_modifier = sb_governance_malus }
+				NOT = {	any_neighbor_province = { has_province_modifier = sb_human_city	} }
+				NOT = {	any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } }
+				NOT = { is_island = yes}
+			}
+			add_province_modifier = {
+				name = sb_governance_malus
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			any_owned_province = {
+				has_province_modifier = sb_governance_malus
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = {	has_province_modifier = sb_human_city }	}
+					culture = hill_troll
+					is_island = yes
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_governance_malus
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = {	has_province_modifier = sb_human_city }	}
+					culture = hill_troll
+					is_island = yes
+				}
+			}
+			remove_province_modifier = sb_governance_malus
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_human_governance_flag
+			any_owned_province = {
+				NOT = { is_island = yes }
+				NOT = { has_province_modifier = sb_troll_governance }
+				NOT = {	any_neighbor_province = { has_province_modifier = sb_human_city	} }
+				NOT = {	any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } }
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { is_island = yes }
+				NOT = { has_province_modifier = sb_troll_governance }
+				NOT = {	any_neighbor_province = { has_province_modifier = sb_human_city	} }
+				NOT = {	any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } }
+			}
+			add_province_modifier = {
+				name = sb_troll_governance
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_human_governance_flag
+			any_owned_province = {
+				has_province_modifier = sb_troll_governance
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } }
+					is_island = yes
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_troll_governance
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } }
+					is_island = yes
+				}
+			}
+			remove_province_modifier = sb_troll_governance
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_human_governance_flag
+			any_owned_province = {
+				NOT = { has_province_modifier = sb_human_governance }
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } }
+					is_island = yes
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { has_province_modifier = sb_human_governance }
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } }
+					is_island = yes
+				}
+			}
+			add_province_modifier = {
+				name = sb_human_governance
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_human_governance_flag
+			any_owned_province = {
+				has_province_modifier = sb_human_governance
+				NOT = { any_neighbor_province = { has_province_modifier = sb_human_city	} }
+				NOT = { any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } }
+				NOT = { is_island = yes }
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_human_governance
+				NOT = { any_neighbor_province = { has_province_modifier = sb_human_city	} }
+				NOT = { any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } }
+				NOT = { is_island = yes }
+			}
+			remove_province_modifier = sb_governance_malus
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_1_flag
+			any_owned_province = {
+				OR = {
+					AND = {
+						OR = {
+							has_terrain = drylands
+							has_terrain = grasslands
+							has_terrain = farmlands
+							has_terrain = city_terrain
+							has_terrain = dwarven_hold
+							has_terrain = dwarven_hold_surface
+						}
+						NOT = { has_province_modifier = sb_dev_cost_5 }
+					}
+					AND = {
+						OR = {
+							has_terrain = woods
+							has_terrain = savannah
+						}
+						NOT = { has_province_modifier = sb_dev_cost_7_5 }
+					}
+					AND = {
+						OR = {
+							has_terrain = forest
+							has_terrain = steppe
+							has_terrain = highlands
+						}
+						NOT = { has_province_modifier = sb_dev_cost_10 }
+					}
+					AND = {
+						OR = {
+							has_terrain = hills
+							has_terrain = ancient_forest
+							has_terrain = marsh
+							has_terrain = coastline
+						}
+						NOT = { has_province_modifier = sb_dev_cost_12_5 }
+					}
+					AND = {
+						has_terrain = dwarven_road
+						NOT = { has_province_modifier = sb_dev_cost_15 }
+					}
+					AND = {
+						OR = {
+							has_terrain = mountain
+							has_terrain = jungle
+							has_terrain = coastal_desert
+						}
+						NOT = { has_province_modifier = sb_dev_cost_17_5 }
+					}
+					AND = {
+						OR = {
+							has_terrain = desert
+							has_terrain = glacier
+						}
+						NOT = { has_province_modifier = sb_dev_cost_25 }
+					}
+					AND = {
+						OR = {
+							has_terrain = cavern
+							has_terrain = shadow_swamp_terrain
+						}
+						NOT = { has_province_modifier = sb_dev_cost_40 }
+					}
+					AND = {
+						has_climate = arid
+						NOT = { has_province_modifier = sb_dev_cost_climate_5 }
+					}
+					AND = {
+						has_climate = arctic
+						NOT = { has_province_modifier = sb_dev_cost_climate_25 }
+					}
+					AND = {
+						has_climate = tropical
+						NOT = { has_province_modifier = sb_dev_cost_climate_2_5 }
+					}
+				}
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+					is_island = yes
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = drylands
+					has_terrain = grasslands
+					has_terrain = farmlands
+					has_terrain = city_terrain
+					has_terrain = dwarven_hold
+					has_terrain = dwarven_hold_surface
+				}
+				NOT = { has_province_modifier = sb_dev_cost_5 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = woods
+					has_terrain = savannah
+				}
+				NOT = { has_province_modifier = sb_dev_cost_7_5 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_7_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = forest
+					has_terrain = steppe
+					has_terrain = highlands
+				}
+				NOT = { has_province_modifier = sb_dev_cost_10 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_10
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = hills
+					has_terrain = ancient_forest
+					has_terrain = marsh
+					has_terrain = coastline
+				}
+				NOT = { has_province_modifier = sb_dev_cost_12_5 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+					is_island = yes
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_12_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_terrain = dwarven_road
+				NOT = { has_province_modifier = sb_dev_cost_15 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_15
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = mountain
+					has_terrain = jungle
+					has_terrain = coastal_desert
+				}
+				NOT = { has_province_modifier = sb_dev_cost_17_5 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_17_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = desert
+					has_terrain = glacier
+				}
+				NOT = { has_province_modifier = sb_dev_cost_25 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_25
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = cavern
+					has_terrain = shadow_swamp_terrain
+				}
+				NOT = { has_province_modifier = sb_dev_cost_40 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_40
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_climate = arid
+				NOT = { has_province_modifier = sb_dev_cost_climate_5 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_climate_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_climate = arctic
+				NOT = { has_province_modifier = sb_dev_cost_climate_25 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_climate_25
+				duration = -1
+				hidden = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_climate = tropical
+				NOT = { has_province_modifier = sb_dev_cost_climate_2_5 }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dev_cost_climate_2_5
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_1_flag
+			any_owned_province = {
+				OR = {
+					has_province_modifier = sb_dev_cost_5
+					has_province_modifier = sb_dev_cost_7_5
+					has_province_modifier = sb_dev_cost_10
+					has_province_modifier = sb_dev_cost_12_5
+					has_province_modifier = sb_dev_cost_15
+					has_province_modifier = sb_dev_cost_17_5
+					has_province_modifier = sb_dev_cost_25
+					has_province_modifier = sb_dev_cost_40
+					has_province_modifier = sb_dev_cost_climate_2_5
+					has_province_modifier = sb_dev_cost_climate_5
+					has_province_modifier = sb_dev_cost_25
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+				}
+				NOT = {
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_province_modifier = sb_dev_cost_5
+					has_province_modifier = sb_dev_cost_7_5
+					has_province_modifier = sb_dev_cost_10
+					has_province_modifier = sb_dev_cost_12_5
+					has_province_modifier = sb_dev_cost_15
+					has_province_modifier = sb_dev_cost_17_5
+					has_province_modifier = sb_dev_cost_25
+					has_province_modifier = sb_dev_cost_40
+					has_province_modifier = sb_dev_cost_climate_2_5
+					has_province_modifier = sb_dev_cost_climate_5
+					has_province_modifier = sb_dev_cost_25
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						has_building = mage_tower	
+					}
+				}
+				NOT = {
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							has_building = mage_tower
+						} 
+					}
+				}
+			}
+			remove_province_modifier = sb_dev_cost_5
+			remove_province_modifier = sb_dev_cost_7_5
+			remove_province_modifier = sb_dev_cost_10
+			remove_province_modifier = sb_dev_cost_12_5
+			remove_province_modifier = sb_dev_cost_15
+			remove_province_modifier = sb_dev_cost_17_5
+			remove_province_modifier = sb_dev_cost_25
+			remove_province_modifier = sb_dev_cost_40
+			remove_province_modifier = sb_dev_cost_climate_2_5
+			remove_province_modifier = sb_dev_cost_climate_5
+			remove_province_modifier = sb_dev_cost_climate_25
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				NOT = { has_province_modifier = sb_adm_dev_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						base_tax = 8
+						has_tax_building_trigger = yes
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_tax = 8
+							has_tax_building_trigger = yes
+						} 
+					}
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { has_province_modifier = sb_adm_dev_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						base_tax = 8
+						has_tax_building_trigger = yes
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_tax = 8
+							has_tax_building_trigger = yes
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_adm_dev_buff
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				has_province_modifier = sb_adm_dev_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						base_tax = 8
+						has_tax_building_trigger = yes
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_tax = 8
+							has_tax_building_trigger = yes
+						} 
+					} 
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_adm_dev_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						base_tax = 8
+						has_tax_building_trigger = yes
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_tax = 8
+							has_tax_building_trigger = yes
+						} 
+					} 
+				}
+			}
+			remove_province_modifier = sb_adm_dev_buff
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				NOT = { has_province_modifier = sb_dip_dev_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						base_production = 8
+						has_production_building_trigger = yes
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_production = 8
+							has_production_building_trigger = yes
+						} 
+					}
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { has_province_modifier = sb_dip_dev_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						base_production = 8
+						has_production_building_trigger = yes
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_production = 8
+							has_production_building_trigger = yes
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_dip_dev_buff
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				has_province_modifier = sb_dip_dev_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						base_production = 8
+						has_production_building_trigger = yes
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_production = 8
+							has_production_building_trigger = yes
+						} 
+					} 
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_dip_dev_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						base_production = 8
+						has_production_building_trigger = yes
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_production = 8
+							has_production_building_trigger = yes
+						} 
+					} 
+				}
+			}
+			remove_province_modifier = sb_dip_dev_buff
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				NOT = { has_province_modifier = sb_mil_dev_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						base_manpower = 8
+						has_forcelimit_building_trigger = yes
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_manpower = 8
+							has_forcelimit_building_trigger = yes
+						} 
+					}
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { has_province_modifier = sb_mil_dev_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						base_manpower = 8
+						has_forcelimit_building_trigger = yes
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_manpower = 8
+							has_forcelimit_building_trigger = yes
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_mil_dev_buff
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				has_province_modifier = sb_mil_dev_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						base_manpower = 8
+						has_forcelimit_building_trigger = yes
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_manpower = 8
+							has_forcelimit_building_trigger = yes
+						} 
+					} 
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_mil_dev_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						base_manpower = 8
+						has_forcelimit_building_trigger = yes
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							base_manpower = 8
+							has_forcelimit_building_trigger = yes
+						} 
+					} 
+				}
+			}
+			remove_province_modifier = sb_mil_dev_buff
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				NOT = { has_province_modifier = sb_state_house_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						development = 20
+						has_building = state_house
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							development = 20
+							has_building = state_house
+						} 
+					}
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOT = { has_province_modifier = sb_state_house_buff }
+				OR = {
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city
+						development = 20
+						has_building = state_house
+					}
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							development = 20
+							has_building = state_house
+						} 
+					}
+				}
+			}
+			add_province_modifier = {
+				name = sb_state_house_buff
+				duration = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+			any_owned_province = {
+				has_province_modifier = sb_state_house_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						development = 20
+						has_building = state_house
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							development = 20
+							has_building = state_house
+						} 
+					} 
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = sb_state_house_buff
+				NOT = { 
+					any_neighbor_province = { 
+						has_province_modifier = sb_human_city	
+						development = 20
+						has_building = state_house
+					} 
+				}
+				NOT = { 
+					any_neighbor_province = { 
+						any_neighbor_province = { 
+							has_province_modifier = sb_human_city 
+							development = 20
+							has_building = state_house
+						} 
+					} 
+				}
+			}
+			remove_province_modifier = sb_state_house_buff
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = sb_human_governance_flag
+			any_owned_province = {
+				OR = {
+					has_province_modifier = facestealer_1
+					has_province_modifier = facestealer_2
+					has_province_modifier = facestealer_3
+				}
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } 
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_province_modifier = facestealer_1
+					has_province_modifier = facestealer_2
+					has_province_modifier = facestealer_3
+				}
+				OR = {
+					any_neighbor_province = { has_province_modifier = sb_human_city	}
+					any_neighbor_province = { any_neighbor_province = { has_province_modifier = sb_human_city } } 
+				}
+			}
+			remove_province_modifier = facestealer_1
+			remove_province_modifier = facestealer_2
+			remove_province_modifier = facestealer_3
+		}
+	}
+}
+

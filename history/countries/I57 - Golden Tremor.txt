@@ -1,0 +1,24 @@
+
+setup_vision_haless = yes
+government = tribal
+add_government_reform = centaur_horde
+government_rank = 1
+primary_culture = plain_centaur
+religion = irdaeos_worship
+religious_school = maslekhuga_school
+technology_group = tech_centaur
+capital = 5128
+
+1427.04.21 = {
+	monarch = {
+		name = "Ny`lluh"
+		dynasty = "Goldencall"
+		birth_date = 1422.06.01
+		adm = 5
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = cruel_personality
+}

@@ -1,0 +1,104 @@
+on_startup = {
+	events = {
+		olavlund.905 #Redgarhavn Starting Event
+		diggy_spawnable.10 #Axebellow Starting Event
+		diggy_spawnable.11 #Begans Starting Event
+		silentrepose.1
+		flavor_loopgeneric.8
+		flavor_loopgeneric.15
+		flavour_kravigozles.0
+	}
+}
+
+on_monthly_pulse = {
+	if = {
+		limit = {
+			OR = {
+				was_tag = Z16
+				tag = Z16
+			}
+			has_estate_privilege = estate_nobles_ebonsteel_cannons
+		}
+		recalculate_olavlund_ebonsteel_modifier = yes
+	}
+}
+
+# country
+on_death_election = {
+	events = {
+		olavlund.2 #Olavlund Death Election
+	}
+}
+
+on_admiral_recruited = {
+	if = {
+		limit = { has_country_flag = olavlund_admirals_prof }
+		add_army_professionalism = 0.01
+	}
+}
+
+# THIS = Raiding country, FROM = Sea province
+on_raid_coast = {
+	if = {
+		limit = {
+			has_country_flag = olavlund_raiding_increases_pp_unlocked
+		}
+		add_power_projection = {
+			type = high_sea_power_projection
+			amount = 1
+		}
+	}
+}
+
+on_slacken_start = {
+	if = {
+		limit = {
+			OR = {
+				was_tag = Z16
+				tag = Z16
+			}
+			ai = no
+			has_country_flag = olavlund_sailors_when_slacken
+		}
+		add_country_modifier = { name = sailors_when_slacken duration = -1 }
+	}
+}
+on_slacken_stop = {
+	if = {
+		limit = {
+			OR = {
+				was_tag = Z16
+				tag = Z16
+			}
+			ai = no
+			has_country_flag = olavlund_sailors_when_slacken
+		}
+		remove_country_modifier = sailors_when_slacken
+	}
+}
+
+on_new_term_election = {
+    events = {
+        olavlund.1 # Olavlund Special
+        silentrepose.100
+    }
+}
+
+on_monarch_death = {
+        events = {
+            silentrepose.100
+            }
+    }
+
+# Loopbennar Effelai Attunement Rework 
+
+on_siege_lost_province =  {
+	if = {
+		limit = { 
+			ROOT = { has_province_modifier = effelai_hub_attuned } 
+			FROM = { NOT = { has_country_flag = effelai_attuned_path } }
+			FROM = { NOT = { tag = REB} }
+		}
+		loop_effelai_hub_lost_effect = yes
+	}
+}

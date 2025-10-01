@@ -1,0 +1,77 @@
+﻿l_english:
+
+  #Mission Tooltips
+
+ sb_2_1_effect_1_tt:0 "The next time the Lake Federations Treasure Fleet passes by it might offer us a great deal."
+ sb_2_3_effect_1_tt:0 "§YSamisalik Bolki§! gains a permanent claim on the §YFeiten§! trade node."
+ sb_2_3_effect_2_tt:0 "§YSamisalik Bolki§! gains a permanent claim on the §YYanzhong§! trade node."
+ sb_2_4_effect_1_tt:0 "Every province in the §YYanzhong§! trade node will receive:"
+ sb_2_5_trigger_1_tt:0 "All provinces in the §YNuzurbokh§! trade node:\n   One of the following must be true:\n     Owned by §YSamisalik Bolki§!\n     Owned by §YGlogenschen Lanmar§!"
+ sb_3_1_effect_1_tt:0 "Every neighbor province will receive:"
+ sb_3_1_effect_2_tt:0 "Every owned province will receive:"
+ sb_3_1_effect_3_tt:0 "Additionally after colonising any province in the §YModuk§! region, the province will also receive the same modifier."
+ sb_3_3_trigger_1_tt:0 "§YProvince(s)§! is in the trade node §YGowon§!"
+ sb_3_6_effect_1_tt:0 "Every province in the §YFeiten§! trade node will receive:"
+ sb_4_1_trigger_1_tt:0 "Every Hill Trill province is owned by §YSamisalik Bolki§!"
+ sb_4_1_effect_1_yes_tt:0 "£yes£ If §YRavgaenki§! also has been improved 3 times by us:"
+ sb_4_1_effect_1_no_tt:0 "£no£ If §YRavgaenki§! also has been improved 3 times by us:"
+ sb_4_1_effect_2_tt:0 "§YSamisalik Bolki§! gains a permanent claim on the §YGowon§! trade node."
+ sb_4_3_effect_1_tt:0 "Every §YHuman Governing Center§! with a §YMage Tower§! will also half the Development Cost Penalty of provinces within zone of control."
+ sb_4_4_effect_1_tt:0 "Every §YHuman Governing Center§! with at least §Y8§! £adm£ §YDevelopment§! and a §YTemple§! or a §YCathedral§! will also apply to provinces within zone of control:"
+ sb_4_4_effect_2_tt:0 "Every §YHuman Governing Center§! with at least §Y8§! £dip£ §YDevelopment§! and a §YWorkshop§! or a §YCounting House§! will also apply to provinces within zone of control:"
+ sb_4_4_effect_3_tt:0 "Every §YHuman Governing Center§! with at least §Y8§! £mil£ §YDevelopment§! and a §YRegimental Camp§! or a §YConscription Center§! will also apply to provinces within zone of control:"
+ sb_4_4_effect_4_tt:0 "Every §YHuman Governing Center§! with at least §Y20 Development§! and a §YState House§! will also apply to provinces within zone of control:"
+
+
+
+
+  #Government Reforms
+
+ sb_hill_troll_tribe_reform:0 "Northern Hill Troll Tribe"
+ sb_shrakloomar_reform:0 "Shrakloomar"
+
+
+  #Government Mechanics
+
+ sb_double_debuff_with_lich_tt:0 "All Penalties will be doubled if our ruler is a Lich."
+ sb_no_ongoing_ritual_tt:0 "£no£ There is currently no ongoing ritual."
+ sb_steal_5_dev_tt:0 "We will offer the human population of Glogenschen Lanmar as sacrifice to our Ancestors.\n\nGlogenschen Lanmar will loose 5 random development (half that will be distributed in our provinces).\n"
+ sb_steal_10_dev_tt:0 "We will offer the human population of Glogenschen Lanmar as sacrifice to our Ancestors.\n\nGlogenschen Lanmar will loose 10 random development (half that will be distributed in our provinces).\n"
+ sb_steal_20_dev_tt:0 "We will offer the human population of Glogenschen Lanmar as sacrifice to our Ancestors.\n\nGlogenschen Lanmar will loose 20 random development (half that will be distributed in our provinces).\n"
+ sb_steal_30_dev_tt:0 "We will offer the human population of Glogenschen Lanmar as sacrifice to our Ancestors.\n\nGlogenschen Lanmar will loose 30 random development (half that will be distributed in our provinces).\n"
+ sb_steal_40_dev_tt:0 "We will offer the human population of Glogenschen Lanmar as sacrifice to our Ancestors.\n\nGlogenschen Lanmar will loose 40 random development (half that will be distributed in our provinces).\n"
+ sb_steal_50_dev_tt:0 "We will offer the Human population of Glogenschen Lanmar as sacrifice to our Ancestors.\n\nGlogenschen Lanmar will loose 50 random development (half that will be distributed in our provinces).\n"
+
+ sb_dev_click_buff_extension_tt:0 "We will offer §Y[V16.Monarch.GetName]§! as sacrifice to our Ancestors.\n\nOur Ancestors will only accept the sacrifice, if §Y[V16.Monarch.GetName]§! will succeed in their challenge:"
+
+ sb_peace_challenge_1_yes_tt:0 "£yes£ Our Ancestors demand from our ruler to develop provinces 50 times.\n\n     Developed provinces:   §Y[V16.sb_peace_challenge.GetValue] / 50§!\n\n     Developing a province will extend the ritual by 1\n     month."
+ sb_peace_challenge_1_no_tt:0 "£yes£ Our Ancestors demand from our ruler to develop provinces 50 times.\n\n     Developed provinces:   §Y[V16.sb_peace_challenge.GetValue] / 50§!\n\n     Developing a province will extend the ritual by 1\n     month."
+
+
+ sb_make_ruler_general_tt:0 "We will offer §Y[V16.Monarch.GetName]§! as sacrifice to our Ancestors.\n\nDuring the ritual, §Y[V16.Monarch.GetName]§! will be possessed by our Ancestors.\nPossessed Rulers are always converted into Possessed Generals.\n\nOur Ancestors will only accept the sacrifice, if §Y[V16.Monarch.GetName]§! will succeed in their challenge:"
+
+
+ sb_war_challenge_1_yes_tt:0 "£yes£ Our Ancestors demand from our ruler to win 10 battles.\n\n     Won battles:   §Y[V16.sb_war_challenge.GetValue] / 10§!\n\n     Winning a battle will extend the ritual by 6 months."
+ sb_war_challenge_1_no_tt:0 "£no£ Our Ancestors demand from our ruler to win 10 battles.\n\n     Won battles:   §Y[V16.sb_war_challenge.GetValue] / 10§!\n\n     Winning a battle will extend the ritual by 6 months."
+ sb_war_challenge_2_yes_tt:0 "£yes£ Our Ancestors demand from our ruler to win 5 sieges.\n\n     Won sieges:   §Y[V16.sb_war_challenge.GetValue] / 5§!\n\n     Winning a siege will extend the ritual by 12 months."
+ sb_war_challenge_2_no_tt:0 "£no£ Our Ancestors demand from our ruler to win 5 sieges.\n\n     Won sieges:   §Y[V16.sb_war_challenge.GetValue] / 5§!\n\n     Winning a siege will extend the ritual by 12 months."
+
+
+  #Modifier Tooltips
+
+ sb_colony_rush:0 "Homeland Expansion"
+ sb_start_buff:0 "A First Sacrifice"
+ sb_troll_homeland:0 "Hill Troll Heartland"
+ sb_reconquest:0 "Re-Unite with Southern Hill Trolls"
+ sb_governance_malus:0 "Local Trollish Administrator"
+ sb_adm_dev_buff:0 "Adopted Taxation System"
+ sb_dip_dev_buff:0 "Human Instructors"
+ sb_mil_dev_buff:0 "Superior Training Grounds"
+ sb_state_house_buff:0 "New Building Laws"
+ sb_adopt_cannons_in_the_frontline:0 "Adopted Pocket-Cannons in the Army"
+ sb_trollish_administrator_buff:0 "Subject only in Name"
+
+  #Random Stuff
+
+ possessed_commander_personality:0 "Possessed"
+
