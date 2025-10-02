@@ -27,7 +27,7 @@ sb_hill_troll_tribe_reform = {
 		global_institution_spread = -0.15
 		reinforce_cost_modifier = -0.5
 		morale_damage_received = -0.1
-		movement_speed = 0.15
+		movement_speed = 0.25
 	}
 	custom_attributes = {
 		is_monstrous_horde = yes

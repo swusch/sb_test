@@ -43,17 +43,16 @@ country_event = { #Human Admin Vasall
 		custom_tooltip = sb_event_2_effect_1_tt
 		hidden_effect = {
 			set_country_flag = sb_human_governance_flag
-			5361 = {
+			set_country_flag = sb_show_control_flag
+			set_country_flag = sb_show_reversed_flag
+			gozengun_superregion = {
 				remove_core = Y95
 			}
-			5362 = {
+			yanshen_superregion = {
 				remove_core = Y95
 			}
-			5359 = {
-				remove_core = Y95
-			}
-			5419 = {
-				remove_core = Y95
+			5360 = {
+				add_core = Y95
 			}
 			create_vassal = Y95
 			create_subject = {
@@ -61,6 +60,7 @@ country_event = { #Human Admin Vasall
 				subject = Y95
 			}
 			Y95 = {
+				change_religion = neokttareum
 				change_government = republic
 				add_republican_tradition = 100
 				add_adm_power = 400
@@ -552,6 +552,132 @@ country_event = { #Ruler Sacrifice Ritual done
 				value = 0
 			}
 			clr_country_flag = sb_war_sacrifice_flag
+		}
+	}
+}
+
+country_event = { #Choose Province highlighting
+	id = sb.10
+	title = sb.10.t
+	desc = sb.10.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	option = {	
+		name = sb.10.a
+		trigger = {
+			has_country_flag = sb_vasall_upgrade_1_flag
+		}
+		custom_tooltip = sb_highlight_control_tt
+		hidden_effect = {
+			clr_country_flag = sb_show_mage_tower_flag
+			clr_country_flag = sb_show_adm_flag
+			clr_country_flag = sb_show_dip_flag
+			clr_country_flag = sb_show_mil_flag
+			clr_country_flag = sb_show_state_house_flag
+			set_country_flag = sb_show_control_flag
+		}
+	}
+
+	option = {	
+		name = sb.10.b
+		trigger = {
+			has_country_flag = sb_vasall_upgrade_1_flag
+		}
+		custom_tooltip = sb_highlight_mage_tower_tt
+		hidden_effect = {
+			clr_country_flag = sb_show_control_flag
+			clr_country_flag = sb_show_adm_flag
+			clr_country_flag = sb_show_dip_flag
+			clr_country_flag = sb_show_mil_flag
+			clr_country_flag = sb_show_state_house_flag
+			set_country_flag = sb_show_mage_tower_flag
+		}
+	}
+
+	option = {	
+		name = sb.10.c
+		trigger = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+		}
+		custom_tooltip = sb_highlight_adm_tt
+		hidden_effect = {
+			clr_country_flag = sb_show_control_flag
+			clr_country_flag = sb_show_mage_tower_flag
+			clr_country_flag = sb_show_dip_flag
+			clr_country_flag = sb_show_mil_flag
+			clr_country_flag = sb_show_state_house_flag
+			set_country_flag = sb_show_adm_flag
+		}
+	}
+
+	option = {	
+		name = sb.10.e
+		trigger = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+		}
+		custom_tooltip = sb_highlight_dip_tt
+		hidden_effect = {
+			clr_country_flag = sb_show_control_flag
+			clr_country_flag = sb_show_mage_tower_flag
+			clr_country_flag = sb_show_adm_flag
+			clr_country_flag = sb_show_mil_flag
+			clr_country_flag = sb_show_state_house_flag
+			set_country_flag = sb_show_dip_flag
+		}
+	}
+
+	option = {	
+		name = sb.10.e
+		trigger = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+		}
+		custom_tooltip = sb_highlight_mil_tt
+		hidden_effect = {
+			clr_country_flag = sb_show_control_flag
+			clr_country_flag = sb_show_mage_tower_flag
+			clr_country_flag = sb_show_adm_flag
+			clr_country_flag = sb_show_dip_flag
+			clr_country_flag = sb_show_state_house_flag
+			set_country_flag = sb_show_mil_flag
+		}
+	}
+
+	option = {	
+		name = sb.10.e
+		trigger = {
+			has_country_flag = sb_vasall_upgrade_2_flag
+		}
+		custom_tooltip = sb_highlight_state_house_tt
+		hidden_effect = {
+			clr_country_flag = sb_show_control_flag
+			clr_country_flag = sb_show_mage_tower_flag
+			clr_country_flag = sb_show_adm_flag
+			clr_country_flag = sb_show_dip_flag
+			clr_country_flag = sb_show_mil_flag
+			set_country_flag = sb_show_state_house_flag
+		}
+	}
+
+	option = {	
+		name = sb.10.e
+		custom_tooltip = sb_highlight_reversed_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = sb_show_reversed_flag }
+				}
+				set_country_flag = sb_show_reversed_flag
+			}
+			else = {
+				clr_country_flag = sb_show_reversed_flag
+			}
+			sb_update_control = yes
 		}
 	}
 }

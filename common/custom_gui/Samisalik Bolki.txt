@@ -11,6 +11,7 @@ custom_button = {
 			has_country_flag = sb_human_governance_flag
 		}
 		ROOT = {
+			NOT = { is_capital_of = FROM}
 			NOT = { 
 				any_neighbor_province = {
 					has_province_modifier = sb_human_city
@@ -79,6 +80,7 @@ custom_button = {
 				every_neighbor_province = {
 					limit = {
 						NOT = { has_province_modifier = sb_human_city }
+						owned_by = V16
 					}
 					province_event = {
 						id = sb.8
@@ -88,6 +90,7 @@ custom_button = {
 					every_neighbor_province = {
 						limit = {
 							NOT = { has_province_modifier = sb_human_city }
+							owned_by = V16
 						}
 						province_event = {
 							id = sb.8
@@ -96,7 +99,14 @@ custom_button = {
 						}
 					}
 				}
-				sb_update_control = yes
+			}
+		}
+
+		hidden_effect = {
+			V16 = {
+				country_event = {
+					id = sb.4
+				}
 			}
 		}
 	}	

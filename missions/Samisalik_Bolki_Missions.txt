@@ -43,7 +43,11 @@ sb_1_missions = {
 		}
 		
 		provinces_to_highlight = {
-			
+			region = shuvuushudi_region
+			OR = {
+				NOT = { owned_by = V16 }
+				NOT = { owned_by = Y95 }
+			}
 		}
 		
 		trigger = {
@@ -221,15 +225,12 @@ sb_2_missions = {
 		
 		provinces_to_highlight = {
 			province_id = 4990
-			OR = {
-				NOT = { is_city = yes }
-				NOT = { has_trade_building_trigger = yes }
-			}
+			NOT = { is_city = yes }
 		}
 		
 		trigger = {
 			4990 = {
-				has_trade_building_trigger = yes
+				is_city = yes
 			}
 		}
 		
@@ -1246,8 +1247,8 @@ sb_3_missions = {
 			num_of_owned_provinces_with = {
 				value = 10
 				num_of_buildings_in_province = 5
-				has_building = state_house
-				development = 30
+				has_manufactory_trigger = yes
+				development = 25
 				culture = hill_troll
 			}
 		}
@@ -1266,8 +1267,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1278,8 +1279,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1290,8 +1291,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1302,8 +1303,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1314,8 +1315,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1326,8 +1327,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1338,8 +1339,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1350,8 +1351,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1362,8 +1363,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1374,8 +1375,8 @@ sb_3_missions = {
 				random_owned_province = {
 					limit = {
 						num_of_buildings_in_province = 5
-						has_building = state_house
-						development = 30
+						has_manufactory_trigger = yes
+						development = 25
 						culture = hill_troll
 					}
 					add_permanent_province_modifier = {
@@ -1576,7 +1577,7 @@ sb_4_missions = {
 		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 10
+				value = 5
 				custom_trigger_tooltip = {
 					tooltip = sb_owned_by_glogen_trigger_tt
 					owned_by = Y95
@@ -1712,7 +1713,7 @@ sb_4_missions = {
 			}
 			Y95 = {
 				development_in_provinces = {
-					value = 500
+					value = 400
 				}
 			}
 		}

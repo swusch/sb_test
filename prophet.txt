@@ -1,5 +1,0 @@
-every_owned_province = {
-			add_local_autonomy = -100
-			change_religion = old_bulwari_sun_cult
-   
-}
