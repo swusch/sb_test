@@ -1,2 +1,0 @@
-change_tag = B78
-hidden_effect = { restore_country_name = yes }
